@@ -1,7 +1,7 @@
 #!/bin/bash
 xray_ip=$(grep 'address' config.json | sed ':a;N;$!ba;s/\n//g' |sed 's/"//g'| sed 's/,//g' | awk '{print$2}')
 def_gate=$(ip r | grep 'default' | awk '{print$3}')
-ip tuntap add dev tun0 mode tun user tun2sock
+ip tuntap add dev tun0 mode tun user tun2socks
 ip addr add 10.0.0.1/24 dev tun0
 ip addr add fdfe:dcba:9876::1/125 dev tun0
 ip route add $xray_ip via $def_gate
