@@ -2,7 +2,7 @@
 This is a simple script that will route al traffic through xray  using tun2socks tun adapter
 
 
-## :book: How Pre-Requirements
+## :book: Pre-Requirements
 
 1) install xray using command " bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install "
 2) clone the repo into any directory ( git clone https://github.com/iamtrazy/xray-tun2socks && cd xray-tun2socks )
