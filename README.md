@@ -14,7 +14,7 @@ This is a simple script that will route al traffic through xray  using tun2socks
 2) edit the config.json file and paste your xray-client configuration ( do-not use dns name , instead use VPS ip address )
 3) run the tunnel.sh file ( sudo ./tunnel.sh )
 
-## :octocat: Credi
+## :octocat: Credits
 
 https://github.com/xjasonlyu/tun2socks
 
